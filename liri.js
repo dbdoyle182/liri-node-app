@@ -29,7 +29,7 @@ var getTweets = function() {
         };
     });
 };
-
+// The function that searches for a specific track on spotify
 var getSpotify = function(variable) {
     var spotify = new Spotify(keys.spotifyKeys);
      
@@ -57,7 +57,11 @@ var getSpotify = function(variable) {
             console.log("------------")
         };
     })
-}
+};
+// The function that calls the request from the OMDB database
+var getMovie = function(variable) {
+
+};
 
 // Function that logs the user input to a file
 var dataToLog = function(data) {
@@ -72,10 +76,10 @@ var dataToLog = function(data) {
     console.log("log.txt was updated")
 };
 // Allows for multiple words to be in song/movie title
-var userInput = "";
-for (var i = 3; i < process.argv.length; i++) {
-    userInput += (process.argv[i] + " ");
-};
+var userInput = process.argv.slice(3).join("+");
+// for (var i = 3; i < process.argv.length; i++) {
+//     userInput += (process.argv[i] + " ");
+// };
 
 switch (process.argv[2]) {
     case "my-tweets":
