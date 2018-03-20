@@ -36,7 +36,7 @@ var getSpotify = function(variable) {
     if (variable === undefined) {
         variable = "The Sign Ace of Base"
     };
-
+    console.log(variable);
     var spotifyParams = {type: 'track', query: variable}
     spotify.search(spotifyParams, function(err, data) {
         
@@ -71,14 +71,18 @@ var dataToLog = function(data) {
     };
     console.log("log.txt was updated")
 };
-
+// Allows for multiple words to be in song title
+var songName = "";
+for (var i = 3; i < process.argv.length; i++) {
+    songName += (process.argv[i] + " ");
+};
 
 switch (process.argv[2]) {
     case "my-tweets":
     getTweets();
     break;
     case "spotify-this-song":
-    getSpotify(process.argv[3]);
+    getSpotify(songName);
     break;
     case "movie-this":
     getMovie(process.argv[3]);
