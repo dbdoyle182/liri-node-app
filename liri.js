@@ -88,6 +88,32 @@ var getMovie = function(variable) {
     });
 };
 
+// Function that reads the text in random.txt and turns that into a LIRI command
+var doRandom = function() {
+    fs.readFile("random.txt", "utf8", function(err, data) {
+        if (err) {
+            return console.log(err);
+        };
+
+        var dataArray = data.split(",");
+        console.log(dataArray);
+
+        switch (dataArray[0]) {
+            case "my-tweets":
+            getTweets();
+            break;
+            case "spotify-this-song":
+            getSpotify(dataArray[1]);
+            break;
+            case "movie-this":
+            getMovie(dataArray[1]);
+            break;
+            default:
+            console.log("The text in random.txt is indecipherable, check your files");
+        };
+    });
+};
+
 // Function that logs the user input to a file
 var dataToLog = function(data) {
     // Appends entered data to a new file named log
