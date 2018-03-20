@@ -71,10 +71,10 @@ var dataToLog = function(data) {
     };
     console.log("log.txt was updated")
 };
-// Allows for multiple words to be in song title
-var songName = "";
+// Allows for multiple words to be in song/movie title
+var userInput = "";
 for (var i = 3; i < process.argv.length; i++) {
-    songName += (process.argv[i] + " ");
+    userInput += (process.argv[i] + " ");
 };
 
 switch (process.argv[2]) {
@@ -82,10 +82,10 @@ switch (process.argv[2]) {
     getTweets();
     break;
     case "spotify-this-song":
-    getSpotify(songName);
+    getSpotify(userInput);
     break;
     case "movie-this":
-    getMovie(process.argv[3]);
+    getMovie(userInput);
     break;
     case "do-what-it-says":
     doRandom();
