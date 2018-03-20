@@ -63,7 +63,7 @@ var getSpotify = function(variable) {
 var dataToLog = function(data) {
     // Appends entered data to a new file named log
     for (var j = 0; j < data.length; j++) {
-        fs.appendFile("log.txt", JSON.stringify(data[j]) + "\r\n", function(err) {
+        fs.appendFile("log.txt", JSON.stringify(data[j], null, 2) + "\r\n", function(err) {
             if (err) {
                 return console.log(err);
             };          
