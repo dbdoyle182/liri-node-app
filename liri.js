@@ -4,7 +4,7 @@ var fs = require("fs")
 var keys = require("./keys.js");
 var request = require("request");
 var Twitter = require("twitter");
-var spotify = require("spotify");
+var Spotify = require("node-spotify-api");
 
 // The function that calls for the most recent tweets
 var getTweets = function() {
@@ -31,7 +31,24 @@ var getTweets = function() {
 };
 
 var getSpotify = function(variable) {
+    var spotify = new Spotify(keys.spotifyKeys);
+    if (variable === undefined) {
+        variable = "The Sign Ace of Base"
+    };
+    var spotifyParams = {type: 'track', query: variable}
+    spotify.search(spotifyParams, function(err, info) {
+        
+        if (err) {
+            return console.log('Error occured: ' + err)
+        };
+        console.log(info)
+        // var infoArray = [];
+        // for (var s = 0; s < info.length; k++) {
+        //     infoArray.push({
 
+        //     })
+        // }
+    })
 }
 
 // Function that logs the user input to a file
