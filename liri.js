@@ -32,16 +32,19 @@ var getTweets = function() {
 
 var getSpotify = function(variable) {
     var spotify = new Spotify(keys.spotifyKeys);
+    console.log(spotify)
     if (variable === undefined) {
         variable = "The Sign Ace of Base"
     };
+    console.log(variable)
     var spotifyParams = {type: 'track', query: variable}
-    spotify.search(spotifyParams, function(err, info) {
+    spotify.search(spotifyParams, function(err, data) {
         
         if (err) {
             return console.log('Error occured: ' + err)
-        };
-        console.log(info)
+        }
+        console.log(data.tracks.items[0].album)
+        console.log(data.tracks.items[0].album.artists[0].name)
         // var infoArray = [];
         // for (var s = 0; s < info.length; k++) {
         //     infoArray.push({
