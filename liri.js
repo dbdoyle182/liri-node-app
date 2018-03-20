@@ -26,6 +26,7 @@ var getTweets = function() {
             };
             console.log(data);
             dataToLog(data);
+
         };
     });
 };
@@ -61,6 +62,30 @@ var getSpotify = function(variable) {
 // The function that calls the request from the OMDB database
 var getMovie = function(variable) {
 
+    if (!variable) {
+        variable = "Mr.Nobody"
+    }
+    
+    var queryUrl = "http://www.omdbapi.com/?t=" + variable + "&y=&plot=short&apikey=ebf08a2";
+
+    request(queryUrl, function(err, response, body) {
+        if (!err && response.statusCode === 200) {
+            var filmInfo = JSON.parse(body)
+            var dataArray = [];
+            dataArray.push({
+                title: "Title: " + filmInfo.Title,
+                release: "Year released: " + filmInfo.Year,
+                imdbRating: "IMDB Rating: " + filmInfo.Ratings[0].Value,
+                rottenTomatoes: "Rotten Tomatoes Rating: " + filmInfo.Ratings[1].Value,
+                country: "Film produced in " + filmInfo.Country,
+                language: "This film is in " + filmInfo.Language,
+                plot: "Synopsis: " + filmInfo.Plot,
+                actors: "Actors: " + filmInfo.Actors
+            });
+            console.log(JSON.stringify(dataArray, null, 2));
+            dataToLog(dataArray);
+        };
+    });
 };
 
 // Function that logs the user input to a file
