@@ -1,0 +1,16 @@
+{"created at: ":"Mon Mar 19 23:21:42 +0000 2018","Tweets":"Tweeting for class"}
+{"created at: ":"Mon Mar 19 21:55:01 +0000 2018","Tweets":"Another tweet"}
+{"created at: ":"Sun Mar 18 20:35:35 +0000 2018","Tweets":"This is a tweet. Wow."}
+{"created at: ":"Mon Mar 19 23:21:34 +0000 2018","Tweets":"Another tweet for class"}
+{"created at: ":"Mon Mar 19 23:21:42 +0000 2018","Tweets":"Tweeting for class"}
+{"created at: ":"Mon Mar 19 21:55:01 +0000 2018","Tweets":"Another tweet"}
+{"created at: ":"Sun Mar 18 20:35:35 +0000 2018","Tweets":"This is a tweet. Wow."}
+{"created at: ":"Mon Mar 19 23:21:34 +0000 2018","Tweets":"Another tweet for class"}
+{"created at: ":"Mon Mar 19 23:21:42 +0000 2018","Tweets":"Tweeting for class"}
+{"created at: ":"Sun Mar 18 20:35:35 +0000 2018","Tweets":"This is a tweet. Wow."}
+{"created at: ":"Mon Mar 19 23:21:34 +0000 2018","Tweets":"Another tweet for class"}
+{"created at: ":"Mon Mar 19 21:55:01 +0000 2018","Tweets":"Another tweet"}
+{"created at: ":"Mon Mar 19 23:21:34 +0000 2018","Tweets":"Another tweet for class"}
+{"created at: ":"Sun Mar 18 20:35:35 +0000 2018","Tweets":"This is a tweet. Wow."}
+{"created at: ":"Mon Mar 19 23:21:42 +0000 2018","Tweets":"Tweeting for class"}
+{"created at: ":"Mon Mar 19 21:55:01 +0000 2018","Tweets":"Another tweet"}
