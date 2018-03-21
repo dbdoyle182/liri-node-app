@@ -609,3 +609,269 @@
   "preview": null,
   "album": "I Want It That Way"
 }
+{
+  "title": "Title: Shrek 2",
+  "release": "Year released: 2004",
+  "imdbRating": "IMDB Rating: 7.2/10",
+  "rottenTomatoes": "Rotten Tomatoes Rating: 88%",
+  "country": "Film produced in USA",
+  "language": "This film is in English",
+  "plot": "Synopsis: Princess Fiona's parents invite her and Shrek to dinner to celebrate her marriage. If only they knew the newlyweds were both ogres.",
+  "actors": "Actors: Mike Myers, Eddie Murphy, Cameron Diaz, Julie Andrews"
+}
+{
+  "created at: ": "Mon Mar 19 23:21:42 +0000 2018",
+  "Tweets": "Tweeting for class"
+}
+{
+  "created at: ": "Mon Mar 19 23:21:34 +0000 2018",
+  "Tweets": "Another tweet for class"
+}
+{
+  "created at: ": "Mon Mar 19 21:55:01 +0000 2018",
+  "Tweets": "Another tweet"
+}
+{
+  "created at: ": "Sun Mar 18 20:35:35 +0000 2018",
+  "Tweets": "This is a tweet. Wow."
+}
+{
+  "artist": "Ozzy Osbourne",
+  "name": "Crazy Train - Remastered",
+  "preview": "https://p.scdn.co/mp3-preview/a3f3a8418391439b4725f26fbb3f1b272c24bc02?cid=40818780b3bf4913a9e4658f6bf35fc3",
+  "album": "Blizzard of Ozz (Expanded Edition)"
+}
+{
+  "artist": "Ozzy Osbourne",
+  "name": "Crazy Train",
+  "preview": "https://p.scdn.co/mp3-preview/b242dd1363ba29ef16762063c683afde989b92a5?cid=40818780b3bf4913a9e4658f6bf35fc3",
+  "album": "The Ozzman Cometh"
+}
+{
+  "artist": "Ozzy Osbourne",
+  "name": "Crazy Train",
+  "preview": "https://p.scdn.co/mp3-preview/ebd8dc92c255f61b7443905c56964293675dd901?cid=40818780b3bf4913a9e4658f6bf35fc3",
+  "album": "The Essential Ozzy Osbourne"
+}
+{
+  "artist": "Forever The Sickest Kids",
+  "name": "Crazy Train",
+  "preview": null,
+  "album": "Punk Goes Classic Rock"
+}
+{
+  "artist": "Ozzy Osbourne",
+  "name": "Crazy Train - Live",
+  "preview": "https://p.scdn.co/mp3-preview/0685af83e0ed84f31b8abf3b31efa671bb561639?cid=40818780b3bf4913a9e4658f6bf35fc3",
+  "album": "Tribute"
+}
+{
+  "artist": "Ozzy Osbourne",
+  "name": "Crazy Train",
+  "preview": "https://p.scdn.co/mp3-preview/2ec6894e644fa53fa306b7c75d08bfde4598e90a?cid=40818780b3bf4913a9e4658f6bf35fc3",
+  "album": "Prince Of Darkness"
+}
+{
+  "artist": "Mystic Prophecy",
+  "name": "Crazy Train",
+  "preview": "https://p.scdn.co/mp3-preview/e4a437488fc116557dcaa2e45780f64eee3a2191?cid=40818780b3bf4913a9e4658f6bf35fc3",
+  "album": "Killhammer"
+}
+{
+  "artist": "Ozzy Osbourne",
+  "name": "Crazy Train",
+  "preview": "https://p.scdn.co/mp3-preview/ebd8dc92c255f61b7443905c56964293675dd901?cid=40818780b3bf4913a9e4658f6bf35fc3",
+  "album": "50 Classic Rock Favorites"
+}
+{
+  "artist": "Ozzy Osbourne",
+  "name": "Crazy Train - Remastered",
+  "preview": "https://p.scdn.co/mp3-preview/9a5be1f8211be3d36f6ad2ec0b04617da2d37f6d?cid=40818780b3bf4913a9e4658f6bf35fc3",
+  "album": "Memoirs of a Madman"
+}
+{
+  "artist": "Ozzy Osbourne",
+  "name": "Crazy Train - Live at Budokan",
+  "preview": "https://p.scdn.co/mp3-preview/422150473b3f42aa0140972c77896ccab976128a?cid=40818780b3bf4913a9e4658f6bf35fc3",
+  "album": "Live At Budokan"
+}
+{
+  "artist": "Metalachi",
+  "name": "Crazy Train",
+  "preview": "https://p.scdn.co/mp3-preview/918c81d94e0412766639e08f5021b9596acbe8ca?cid=40818780b3bf4913a9e4658f6bf35fc3",
+  "album": "Uno"
+}
+{
+  "artist": "Ozzy Osbourne",
+  "name": "Crazy Train - Live",
+  "preview": "https://p.scdn.co/mp3-preview/8000fb7cf2af274aaac729968af21e88ab50853e?cid=40818780b3bf4913a9e4658f6bf35fc3",
+  "album": "LIVE & LOUD"
+}
+{
+  "artist": "Ozzy Osbourne",
+  "name": "Crazy Train",
+  "preview": "https://p.scdn.co/mp3-preview/99660c7d5863840e700589cc547f002b400569d6?cid=40818780b3bf4913a9e4658f6bf35fc3",
+  "album": "The Osbourne Family Album (Clean Version)"
+}
+{
+  "artist": "Love Canon",
+  "name": "Crazy Train",
+  "preview": "https://p.scdn.co/mp3-preview/a3ae365ee8ce15dceec68ad0318c8f1256ff9d32?cid=40818780b3bf4913a9e4658f6bf35fc3",
+  "album": "Greatest Hits Vol. 3"
+}
+{
+  "artist": "DJ Crazy J Rodriguez",
+  "name": "My Life On The Crazy Train Sucks",
+  "preview": "https://p.scdn.co/mp3-preview/23a7a2eb982c7659dd5f6386bc83a3b3dc4e5852?cid=40818780b3bf4913a9e4658f6bf35fc3",
+  "album": "DJ Crazy J Rodriguez"
+}
+{
+  "artist": "Crazy Horse",
+  "name": "Gone Dead Train",
+  "preview": "https://p.scdn.co/mp3-preview/fabf079ec611363930f2700aa558723acb06581e?cid=40818780b3bf4913a9e4658f6bf35fc3",
+  "album": "Crazy Horse"
+}
+{
+  "artist": "The Delmore Brothers",
+  "name": "I Let the Freight Train Carry Me On",
+  "preview": "https://p.scdn.co/mp3-preview/191c484d67380dd97623fece7a4e1f16d8e7209c?cid=40818780b3bf4913a9e4658f6bf35fc3",
+  "album": "Crazy Heart: Original Motion Picture Soundtrack (Deluxe Edition)"
+}
+{
+  "artist": "Brennan Villines",
+  "name": "Crazy Train",
+  "preview": "https://p.scdn.co/mp3-preview/08feab7dbd7e385f13d52eccbc29e127fb1143a9?cid=40818780b3bf4913a9e4658f6bf35fc3",
+  "album": "Crazy Train"
+}
+{
+  "artist": "Camille and Kennerly",
+  "name": "Crazy Train",
+  "preview": "https://p.scdn.co/mp3-preview/19589859565bd73f727e53cc2f3efef2f947f69b?cid=40818780b3bf4913a9e4658f6bf35fc3",
+  "album": "Harp Attack 2"
+}
+{
+  "artist": "Power Trip",
+  "name": "Crazy Train - Hard Rock Remix",
+  "preview": "https://p.scdn.co/mp3-preview/dc6a87cb9e13d36c50673deba1a25bffe36793e8?cid=40818780b3bf4913a9e4658f6bf35fc3",
+  "album": "Hard Rock Workout Mix (60 Min Non-Stop Workout Mix Moderate Pace (130 BPM) )"
+}
+{
+  "artist": "Backstreet Boys",
+  "name": "I Want It That Way",
+  "preview": "https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=40818780b3bf4913a9e4658f6bf35fc3",
+  "album": "The Hits--Chapter One"
+}
+{
+  "artist": "Backstreet Boys",
+  "name": "I Want It That Way",
+  "preview": "https://p.scdn.co/mp3-preview/f9f504a705fcaaf2f24b004b629725451014ad6c?cid=40818780b3bf4913a9e4658f6bf35fc3",
+  "album": "The Essential Backstreet Boys"
+}
+{
+  "artist": "Backstreet Boys",
+  "name": "I Want It That Way",
+  "preview": "https://p.scdn.co/mp3-preview/b8c2410a5acb68b462be6ac85f1312430e2b149c?cid=40818780b3bf4913a9e4658f6bf35fc3",
+  "album": "Millennium"
+}
+{
+  "artist": "Glee Cast",
+  "name": "Bye Bye Bye / I Want It That Way (Glee Cast Version)",
+  "preview": "https://p.scdn.co/mp3-preview/3aa63b5c98b98ae333e567813e5c720abb2914f0?cid=40818780b3bf4913a9e4658f6bf35fc3",
+  "album": "Bye Bye Bye / I Want It That Way (Glee Cast Version)"
+}
+{
+  "artist": "Anthem Lights",
+  "name": "I Want It That Way",
+  "preview": "https://p.scdn.co/mp3-preview/4a163fbfa2dbbe4433f277e0e7395dca656364f5?cid=40818780b3bf4913a9e4658f6bf35fc3",
+  "album": "Covers Part IV"
+}
+{
+  "artist": "Backstreet Boys",
+  "name": "I Want It That Way",
+  "preview": "https://p.scdn.co/mp3-preview/2f96341eb8415a3efb27375db1c4d59928408c2f?cid=40818780b3bf4913a9e4658f6bf35fc3",
+  "album": "90 Sweet 90s Hits!"
+}
+{
+  "artist": "Dynamite Boy",
+  "name": "I Want It That Way",
+  "preview": null,
+  "album": "Punk Goes Pop"
+}
+{
+  "artist": "\"Weird Al\" Yankovic",
+  "name": "Ebay (Parody of \"I Want It That Way\" by the Backstreet Boys)",
+  "preview": "https://p.scdn.co/mp3-preview/e217ea111ab84a777f204252fce4b18d5de3ae80?cid=40818780b3bf4913a9e4658f6bf35fc3",
+  "album": "Poodle Hat"
+}
+{
+  "artist": "Boyce Avenue",
+  "name": "I Want It That Way",
+  "preview": "https://p.scdn.co/mp3-preview/764f1dcb8c9a9cec099cc361cb388f931bf023d3?cid=40818780b3bf4913a9e4658f6bf35fc3",
+  "album": "New Acoustic Sessions, Vol. 3"
+}
+{
+  "artist": "Kyle Olthoff",
+  "name": "I Want It That Way",
+  "preview": "https://p.scdn.co/mp3-preview/101776fe4fc24aac543f6b4c5aa4273ac9d2dcc4?cid=40818780b3bf4913a9e4658f6bf35fc3",
+  "album": "I Want It That Way"
+}
+{
+  "artist": "Landon Austin & Julia Sheer",
+  "name": "I Want It That Way",
+  "preview": "https://p.scdn.co/mp3-preview/e777be5446dc3df34abc2eaec241edb5a590976c?cid=40818780b3bf4913a9e4658f6bf35fc3",
+  "album": "I Want It That Way"
+}
+{
+  "artist": "Manuel Costa",
+  "name": "I Want It That Way",
+  "preview": "https://p.scdn.co/mp3-preview/cdde86f49ca4ef217ac08bbbb0c6295c16f015b0?cid=40818780b3bf4913a9e4658f6bf35fc3",
+  "album": "I Want It That Way"
+}
+{
+  "artist": "\"Weird Al\" Yankovic",
+  "name": "Ebay (Parody of \"I Want It That Way\" by the Backstreet Boys)",
+  "preview": "https://p.scdn.co/mp3-preview/5632d8e302d70afaa8f79c962aa4b2032a45b3ef?cid=40818780b3bf4913a9e4658f6bf35fc3",
+  "album": "The Essential \"Weird Al\" Yankovic"
+}
+{
+  "artist": "Backstreet Boys",
+  "name": "I Want It That Way",
+  "preview": "https://p.scdn.co/mp3-preview/adf2485de3f3f375593b5307a792e8d8e6f19794?cid=40818780b3bf4913a9e4658f6bf35fc3",
+  "album": "NKOTBSB"
+}
+{
+  "artist": "Jason Chen",
+  "name": "I Want It That Way",
+  "preview": "https://p.scdn.co/mp3-preview/cba62099b5bec2bc9244aaeaba0422556f6df04e?cid=40818780b3bf4913a9e4658f6bf35fc3",
+  "album": "I Want It That Way"
+}
+{
+  "artist": "Scott Bradlee's Postmodern Jukebox",
+  "name": "I Want It That Way",
+  "preview": "https://p.scdn.co/mp3-preview/53296f4b689baaa0be6d94e8720c044e98d4b3e3?cid=40818780b3bf4913a9e4658f6bf35fc3",
+  "album": "Selfies on Kodachrome"
+}
+{
+  "artist": "Scary Pockets",
+  "name": "I Want It That Way",
+  "preview": "https://p.scdn.co/mp3-preview/33685e005149d5e7d0199a764163ff77f7762e29?cid=40818780b3bf4913a9e4658f6bf35fc3",
+  "album": "Nu Funk"
+}
+{
+  "artist": "Scott Bradlee's Postmodern Jukebox",
+  "name": "I Want It That Way",
+  "preview": "https://p.scdn.co/mp3-preview/53296f4b689baaa0be6d94e8720c044e98d4b3e3?cid=40818780b3bf4913a9e4658f6bf35fc3",
+  "album": "PMJ Is For Lovers: The Love Song Collection"
+}
+{
+  "artist": "Steel Panther",
+  "name": "I Want It That Way",
+  "preview": null,
+  "album": "I Want It That Way"
+}
+{
+  "artist": "Backstreet Boys",
+  "name": "I Want It That Way",
+  "preview": "https://p.scdn.co/mp3-preview/c9302062adf4f59e60335f30c7ca46b487a267fb?cid=40818780b3bf4913a9e4658f6bf35fc3",
+  "album": "NOW That's What I Call 90s Pop"
+}

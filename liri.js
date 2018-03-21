@@ -128,9 +128,6 @@ var dataToLog = function(data) {
 };
 // Allows for multiple words to be in song/movie title
 var userInput = process.argv.slice(3).join("+");
-// for (var i = 3; i < process.argv.length; i++) {
-//     userInput += (process.argv[i] + " ");
-// };
 
 switch (process.argv[2]) {
     case "my-tweets":
