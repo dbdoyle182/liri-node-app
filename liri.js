@@ -5,6 +5,8 @@ var keys = require("./keys.js");
 var request = require("request");
 var Twitter = require("twitter");
 var Spotify = require("node-spotify-api");
+var chalk = require("chalk");
+var chalkAnimation = require("chalk-animation");
 
 // The function that calls for the most recent tweets
 var getTweets = function() {
@@ -24,8 +26,13 @@ var getTweets = function() {
                     'Tweets' : tweets[i].text,
                 });
             };
-            console.log(data);
+            console.log(chalk.blue(JSON.stringify(data, null, 2)));
             dataToLog(data);
+            console.log(chalk.red("--------------------"));
+            var rainbow = chalkAnimation.rainbow("log.txt was updated");
+            setTimeout(() => {
+                rainbow.stop(); // Animation stops
+            }, 3000);
 
         };
     });
@@ -34,8 +41,8 @@ var getTweets = function() {
 var getSpotify = function(variable) {
     var spotify = new Spotify(keys.spotifyKeys);
      
-    if (variable === undefined) {
-        variable = "The Sign Ace of Base"
+    if (!variable) {
+        variable = "The+Sign+Ace+of+Base"
     };
     console.log(variable);
     var spotifyParams = {type: 'track', query: variable}
@@ -53,9 +60,13 @@ var getSpotify = function(variable) {
                 preview: data.tracks.items[i].preview_url,
                 album: data.tracks.items[i].album.name
             });
-            console.log(dataArray);
+            console.log(chalk.green(JSON.stringify(dataArray, null, 2)));
             dataToLog(dataArray);
-            console.log("------------")
+            console.log(chalk.red("--------------------"));
+            var rainbow = chalkAnimation.rainbow("log.txt was updated");
+            setTimeout(() => {
+                rainbow.stop(); // Animation stops
+            }, 3000);
         };
     })
 };
@@ -82,8 +93,13 @@ var getMovie = function(variable) {
                 plot: "Synopsis: " + filmInfo.Plot,
                 actors: "Actors: " + filmInfo.Actors
             });
-            console.log(JSON.stringify(dataArray, null, 2));
+            console.log(chalk.yellow(JSON.stringify(dataArray, null, 2)));
             dataToLog(dataArray);
+            console.log(chalk.red("--------------------"));
+            var rainbow = chalkAnimation.rainbow("log.txt was updated");
+            setTimeout(() => {
+                rainbow.stop(); // Animation stops
+            }, 3000);
         };
     });
 };
@@ -109,7 +125,9 @@ var doRandom = function() {
             getMovie(dataArray[1]);
             break;
             default:
-            console.log("The text in random.txt is indecipherable, check your files");
+            var glitch = chalkAnimation.glitch("The text in random.txt is indecipherable, check your files");
+            setTimeout(() => {
+                glitch.stop()}, 3000);
         };
     });
 };
@@ -124,11 +142,11 @@ var dataToLog = function(data) {
             };          
         });
     };
-    console.log("log.txt was updated")
+    
 };
 // Allows for multiple words to be in song/movie title
 var userInput = process.argv.slice(3).join("+");
-
+console.log(userInput)
 switch (process.argv[2]) {
     case "my-tweets":
     getTweets();
@@ -143,5 +161,8 @@ switch (process.argv[2]) {
     doRandom();
     break;
     default:
-    console.log("Enter a valid Liri command");
+    var pulse = chalkAnimation.neon("Enter a valid Liri command");
+        setTimeout(() => {
+            pulse.stop(); // Animation stops
+        }, 3000);
 }

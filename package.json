@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/dbdoyle182/liri-node-app#readme",
   "dependencies": {
+    "chalk": "^2.3.2",
+    "chalk-animation": "^1.5.0",
     "dotenv": "^5.0.1",
     "node-spotify-api": "^1.0.7",
     "spotify": "^0.3.0",
