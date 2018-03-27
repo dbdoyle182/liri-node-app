@@ -1,6 +1,6 @@
 # liri-node-app
 
-This project uses Node.js and JavaScript to create a command line app that functions as limited version of Apple's Siri. The app accesses Twitter, Spotify and OMBD through their APIs to receive different levels of information. The Twitter API provides 20 of the user's most recent tweets. The Spotify API allows the user to search for a song by title or title and band name; it provides multiple responses. OMBD provides selected information about the title of the film searched.
+This project uses Node.js and JavaScript to create a command line app that functions as limited version of Apple's Siri. The app accesses Twitter, Spotify and OMBD through their APIs to receive different levels of information. The Twitter API provides 20 of the user's most recent tweets. The Spotify API allows the user to search for a song by title or title and band name; it provides multiple responses. OMBD provides selected information about the title of the film searched. __There is no user interface for this application, it is recommend you either fork the code to your own system or you can check out the video at the bottom__
 
 ## Getting Started
 
