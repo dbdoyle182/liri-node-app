@@ -32,4 +32,33 @@ Twitter and Spotify require any potential users to provide their own .env file w
 
 ##How to Obtain Keys
 
-*Link to Twitter API
+* Link to Twitter API
+    * [Twitter](https://dev.twitter.com/)
+
+* Link to Spotify API
+    * [Spotify](https://beta.developer.spotify.com/documentation/web-api/)
+
+## Running Tests
+
+The following commands are used in the command line:
+
+* my-tweets
+* spotify-this-song
+* movie-this
+* do-what-it-says
+
+How to use each command in the command line: 
+
+* Twitter 
+    * node liri.js my-tweets
+
+* Spotify 
+    * node liri.js spotify-this-song 'title of song'
+
+* OMDB 
+    * node liri.js movie-this 'title of film'
+
+* Do What It Says
+    * node do-what-it-says
+    * This command relies on the text in random.txt to receive a command. The text runs one of the three previous commands and is in the format:
+    
