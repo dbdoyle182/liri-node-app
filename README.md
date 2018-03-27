@@ -63,6 +63,8 @@ How to use each command in the command line:
     * This command relies on the text in random.txt to receive a command. The text runs one of the three previous commands. Example in random.txt :
     spotify-this-song,"I want it that way"
 
+* Video with Tests
+    * [Video](https://drive.google.com/file/d/1wqIJEOjPzjjIv5Y9t27ei7j74CuZqqbs/view)
 
 ## Authors
 
