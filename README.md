@@ -8,26 +8,26 @@ Twitter and Spotify require any potential users to provide their own .env file w
 
 ##Prerequisites
 
-*Dotenv
-    *npm i dotenv
+* Dotenv
+    * npm i dotenv
     [Instructions for Dotenv](https://www.npmjs.com/package/dotenv)
-*Chalk
-    *npm i chalk
-    [Instructions for Chalk]
-*Chalk Animation
-    *npm i chalk-animation
-    [Instructions for Chalk Animation]
-*Twitter
-    *npm i twitter
-    [Instructions for Twitter]
-*Spotify
-    *npm i node-spotify-api
-    [Instructions for Spotify]
-*Request
-    *npm i request
-    [Instructions for Request]
-*OMBD API
-    [OMBD API Page]
+* Chalk
+    * npm i chalk
+    [Instructions for Chalk](https://www.npmjs.com/package/chalk)
+* Chalk Animation
+    * npm i chalk-animation
+    [Instructions for Chalk Animation](https://www.npmjs.com/package/chalk-animation)
+* Twitter
+    * npm i twitter
+    [Instructions for Twitter](https://www.npmjs.com/package/twitter)
+* Spotify
+    * npm i node-spotify-api
+    [Instructions for Spotify](https://www.npmjs.com/package/node-spotify-api)
+* Request
+    * npm i request
+    [Instructions for Request](https://www.npmjs.com/package/request)
+* OMBD API
+    [OMBD API Page](http://www.omdbapi.com/)
 
 
 ##How to Obtain Keys
