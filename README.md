@@ -64,7 +64,7 @@ How to use each command in the command line:
     spotify-this-song,"I want it that way"
 
 * Video with Tests
-    * [Video](https://drive.google.com/file/d/1wqIJEOjPzjjIv5Y9t27ei7j74CuZqqbs/view)
+    * [Video](https://www.youtube.com/watch?v=y0_REJeYd6k)
 
 ## Authors
 
