@@ -60,5 +60,10 @@ How to use each command in the command line:
 
 * Do What It Says
     * node do-what-it-says
-    * This command relies on the text in random.txt to receive a command. The text runs one of the three previous commands and is in the format:
-    
+    * This command relies on the text in random.txt to receive a command. The text runs one of the three previous commands. Example in random.txt :
+    spotify-this-song,"I want it that way"
+
+
+## Authors
+
+* [Daniel Doyle](https://dbdoyle182.github.io/Bootstrap-Portfolio/index.html)
